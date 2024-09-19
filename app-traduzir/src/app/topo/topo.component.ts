@@ -8,4 +8,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class TopoComponent {
 
+  public titulo: string = 'Aprendendo Inglês '
 }
