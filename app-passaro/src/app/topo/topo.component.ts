@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-topo',
   templateUrl: './topo.component.html',
-  styleUrl: './topo.component.css'
+  styleUrls: ['./topo.component.css']
 })
-export class TopoComponent {
+export class TopoComponent implements OnInit {
 
-  public titulo: string = 'Aprendendo Inglês '
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
